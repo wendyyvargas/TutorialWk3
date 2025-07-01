@@ -1,6 +1,6 @@
 # main.py
 # Todo: Import operations
-from operations import add, sub, mul, div
+from .operations import add, sub, mul, div
 
 def main():
   print("Welcome to the Calculator!")

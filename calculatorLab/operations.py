@@ -1,5 +1,5 @@
 # operations.py
-from utils import log_call
+from .utils import log_call
 
 #TODO: define add, sub, mul, div functions
 @log_call

@@ -2,8 +2,8 @@
 # test_operations.py
 import unittest
 import os
-from operations import add, sub, mul, div
-from utils import log_call
+from calculatorLab.operations import add, sub, mul, div
+from calculatorLab.utils import log_call
 
 def test_add():
     assert add(3, 4) == 7
