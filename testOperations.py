@@ -37,14 +37,15 @@ class TestOperations(unittest.TestCase):
         self.assertEqual(div(10, 2), 5)
 
     def test_divide_by_zero(self):
-        with self.assertRaises(ValueError):
-            div(10, 0)
+        # with self.assertRaises(ValueError):
+        #     div(10, 0)
+         self.assertEqual(div(10, 0), "undefined")
 
     def test_log_file_creation(self):
         # Run a function to generate logs
         add(3, 4)
         # Check if log file was created
-        self.assertTrue(os.path.exists("calculator.log"))
+        self.assertTrue(os.path.exists("calls.log"))
 
 if __name__ == '__main__':
     unittest.main()
