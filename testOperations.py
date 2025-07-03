@@ -1,7 +1,5 @@
 # pass all these test cases
-# test_operations.py
-
-#NOTE MOVE THIS FILE OUT OF TESTS
+# testOperations.py
 
 import unittest
 import os

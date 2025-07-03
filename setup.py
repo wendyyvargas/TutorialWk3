@@ -1,11 +1,10 @@
 # setup.py
-from setuptools import setup, find_packages
+from setuptools import setup, find_packages # type: ignore
 
 setup(
     name="calculatorLab",
     version="0.1",
     packages=find_packages(),
-    # py_modules=["main", "operations", "utils"],
     install_requires=[],
     entry_points={
         'console_scripts': [

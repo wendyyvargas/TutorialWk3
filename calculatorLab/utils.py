@@ -1,7 +1,5 @@
 # utils.py
 import logging
-#from functools import wraps CHANGED THIS
-
 from datetime import datetime
 
 def log_call(func):

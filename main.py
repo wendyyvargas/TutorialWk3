@@ -1,10 +1,6 @@
 # main.py
 # Todo: Import operations
-
-
-#NOTE MOVE THIS FILE OUT OF CALCULATORLAB
-
-from calculatorLab.operations import add, sub, mul, div #changed this
+from calculatorLab.operations import add, sub, mul, div
 
 def main():
   print("Welcome to the Calculator!")
