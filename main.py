@@ -1,6 +1,10 @@
 # main.py
 # Todo: Import operations
-from .operations import add, sub, mul, div
+
+
+#NOTE MOVE THIS FILE OUT OF CALCULATORLAB
+
+from calculatorLab.operations import add, sub, mul, div #changed this
 
 def main():
   print("Welcome to the Calculator!")
@@ -16,8 +20,8 @@ def main():
     #result = sub(a, b)
   #...
 
-#print the result 
-#print("Result: " + result)
+  #print the result 
+  #print("Result: " + result)
 
 #running program 
 if __name__ == "__main__":

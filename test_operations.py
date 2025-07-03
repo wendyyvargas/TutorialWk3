@@ -1,5 +1,8 @@
 # pass all these test cases
 # test_operations.py
+
+#NOTE MOVE THIS FILE OUT OF TESTS
+
 import unittest
 import os
 from calculatorLab.operations import add, sub, mul, div
